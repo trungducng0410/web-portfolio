@@ -1,0 +1,10 @@
+#work {
+  background-color: $white-color;
+  color: $dark-blue-text;
+  padding-top: 5rem;
+  .work-wrapper {
+    @include respond(phone) {
+      padding-bottom: 5rem;
+    }
+  }
+}
